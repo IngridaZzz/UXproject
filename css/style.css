@@ -31,7 +31,8 @@
     position:absolute;
     width:160px;
     min-height:40px;
-    z-index:300000;
+    z-index: 1;
     bottom:10px;
+    right: 10px;
     text-align:center;
 }
