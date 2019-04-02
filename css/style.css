@@ -18,11 +18,11 @@
 
 button {
     font-size: 30px;
-    background: none;
+    background: rgba(9,95,66,0.2);
     color: #fff;
     width: 240px;
     height: 80px;
-    border: 1px solid #095f42;
+    border: 2px solid #095f42;
     border-radius: 4px;
     transition: .6s;
     overflow: hidden;

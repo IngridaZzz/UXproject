@@ -1,12 +1,12 @@
 $(document).ready(function () {
-    
+
     addVideosToHtml();
 
     collectAPIData();
 
 });
 
-function collectAPIData(){
+function collectAPIData() {
     // document.getElementById("searchCityButton").addEventListener("click", function() {
     var type = "annualavg";
     var vari = "tas";
@@ -48,3 +48,13 @@ function showData(jsonData) {
     var jsonElements = JSON.parse(jsonData.responseText);
     console.log(jsonElements);
 }
+
+$(document).ready(function () {
+    $('#question').hide();
+
+    $(document).keydown(function (e) {
+        if (e.keyCode == '32') {
+            $('#question').show();
+        }
+    });
+});
