@@ -63,12 +63,16 @@ button:hover {
     position: relative;
 }
 
-.temp {
+.container {
+    font-family: AUPassata_Rg;
+    font-size: 20px;
+    color: #fff;
     position: absolute;
-    width: 130px;
-    min-height: 40px;
+    width: 80%;
+    min-height: 20px;
     z-index: 1;
-    bottom: 10px;
-    right: 45px;
+    bottom: 20%;
+    right: 10%;
     text-align: center;
+    background-color: #095f42;
 }
