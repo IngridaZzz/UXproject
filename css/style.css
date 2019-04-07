@@ -68,11 +68,12 @@ button:hover {
     font-size: 20px;
     color: #fff;
     position: absolute;
-    width: 80%;
+    width: 20%;
     min-height: 20px;
     z-index: 1;
-    bottom: 20%;
-    right: 10%;
+    top: 2%;
+    left: 1%;
     text-align: center;
     background-color: #095f42;
+    opacity: 0.8;
 }
