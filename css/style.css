@@ -77,3 +77,8 @@ button:hover {
     text-align: center;
 }
 
+table {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
