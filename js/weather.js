@@ -18,8 +18,6 @@ function showData(jsonData){
         "<p>Temperature: "+jsonElements.main.temp+" &#8451;</p>"+
         "<p>Pressure: "+jsonElements.main.pressure+"</p>"+
         "<p>Humidity: "+jsonElements.main.humidity+"</p>"+
-        "<p>Min temp: "+jsonElements.main.temp_min+"</p>"+
-        "<p>Max temp: "+jsonElements.main.temp_max+"</p>"+
         "<p>Wind: "+jsonElements.wind.speed+"</p>";
 }
 
