@@ -23,6 +23,6 @@ function showData(jsonData){
 
 
 /* Main program */
-    var url = "http://api.openweathermap.org/data/2.5/weather?q=brasilia&units=metric&appid=5f2e27f6971e8f85f633b0cd12187ca2";
+    var url = "https://api.openweathermap.org/data/2.5/weather?q=brasilia&units=metric&appid=5f2e27f6971e8f85f633b0cd12187ca2";
     collectData(url, showData);
     
