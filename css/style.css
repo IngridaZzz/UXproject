@@ -65,15 +65,15 @@ button:hover {
 
 .container {
     font-family: AUPassata_Rg;
-    font-size: 20px;
+    font-size: 18px;
     color: #fff;
     position: absolute;
-    width: 20%;
-    min-height: 20px;
+    width: 29%;
+    min-height: 24%;
     z-index: 1;
-    top: 2%;
-    left: 1%;
-    text-align: center;
+    top: 1%;
     background-color: #095f42;
     opacity: 0.8;
+    text-align: center;
 }
+

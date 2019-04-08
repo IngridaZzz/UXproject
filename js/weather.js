@@ -15,10 +15,10 @@ function showData(jsonData){
      var jsonElements= JSON.parse(jsonData.responseText);
     document.getElementById("showWeather").innerHTML =
         "<h2>Location: "+jsonElements.name+", "+jsonElements.sys.country+"</h2>"+    
-        "<p>Temperature: "+jsonElements.main.temp+" &#8451;</p>"+
-        "<p>Pressure: "+jsonElements.main.pressure+"</p>"+
-        "<p>Humidity: "+jsonElements.main.humidity+"</p>"+
-        "<p>Wind: "+jsonElements.wind.speed+"</p>";
+        "<table><tr><b>Temperature:</b> "+jsonElements.main.temp+" &#8451; </tr> &nbsp; &nbsp; &nbsp;"+
+        "<tr><b>Pressure:</b> "+jsonElements.main.pressure+" hPa</tr></table>"+
+        "<table><tr><b>Humidity:</b> "+jsonElements.main.humidity + " &#37; </tr> &nbsp; &nbsp; &nbsp;"+
+        "<tr><b>Wind:</b> "+jsonElements.wind.speed+" m/s</tr></table>";
 }
 
 
