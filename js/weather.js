@@ -17,7 +17,7 @@ function showData(jsonData){
         "<h2>Location: "+jsonElements.name+", "+jsonElements.sys.country+"</h2>"+    
         "<table><tr><b>Temperature:</b> "+jsonElements.main.temp+" &#8451; </tr> &nbsp; &nbsp; &nbsp;"+
         "<tr><b>Pressure:</b> "+jsonElements.main.pressure+" hPa</tr></table>"+
-        "<table><tr><b>Humidity:</b> "+jsonElements.main.humidity + " &#37; </tr> &nbsp; &nbsp; &nbsp;"+
+        "<table><tr><b>Humidity:</b> "+jsonElements.main.humidity + " &#37; </tr> &nbsp; &nbsp; &nbsp; &nbsp;"+
         "<tr><b>Wind:</b> "+jsonElements.wind.speed+" m/s</tr></table>";
 }
 
