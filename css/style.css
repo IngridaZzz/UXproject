@@ -68,8 +68,8 @@ button:hover {
     font-size: 18px;
     color: #fff;
     position: absolute;
-    width: 35%;
-    min-height: 24%;
+    width: 370px;
+    min-height: 22%;
     z-index: 1;
     top: 1%;
     background-color: #095f42;
